@@ -143,5 +143,5 @@ MESSAGE_TAGS = {
 # Email está para gerar no console, pra enviar tem que mudar o EMAIL_BACKEND
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST_USER = "lucasbgmoveis@gmail.com"
+EMAIL_HOST_USER = 'lucasbgmoveis@gmail.com'
 
