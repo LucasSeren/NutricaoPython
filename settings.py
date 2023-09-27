@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-uzn8&lbpyb(c+j-03mo8lu2fsy5z)(gg5$2hdsz_5&1at+#bm9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -125,6 +125,8 @@ STATIC_ROOT = os.path.join("static")
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
 
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -144,4 +146,5 @@ MESSAGE_TAGS = {
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST_USER = 'lucasbgmoveis@gmail.com'
+
 
